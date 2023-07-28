@@ -23,5 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-asyncmock.js
-firebase
+.env
