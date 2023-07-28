@@ -2,6 +2,7 @@ import { useState, useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
 import { db } from "../../firebase/config";
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
+import checkComprado from "../../assets/img/checkComprado.png"
 import "./Checkout.css";
 
 export const Checkout = () => {
@@ -76,7 +77,7 @@ export const Checkout = () => {
   if (carrito.length == 0) {
     return (
       <div className="checkComprado">
-        <img src="/public/checkComprado.png" alt="" />
+        <img src={checkComprado} alt="" />
         {ordenId && (
           <strong className="checkCompradoTxt">
             ¡Gracias por tu compra! Tu id de Orden es {ordenId}, nos
