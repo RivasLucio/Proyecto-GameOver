@@ -1,0 +1,110 @@
+.checkout-body {
+    padding-top: 1.5vw;
+}
+.checkout-body  h2 {
+    color: white;
+}
+.formulario {
+    max-width: 30vw;
+    margin: 0 auto;
+    color: white;
+    padding-top: 2vw;
+}
+.checkOutProductos {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.orderId {
+    display: block;
+    margin: 4rem;
+    padding: 2rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+form {
+    padding-bottom: 30px;
+
+}
+
+.strong {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.checkbtn {
+    cursor: pointer;
+    border-radius: 10px;
+    padding-inline: 10vw;
+    border: none;
+    font-size: 15px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background: #180430;
+    color: white;
+    border: 1px solid rgb(135, 0, 224);
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    position: top;
+    left: 2vw;
+}
+.checkbtn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background: rgb(135, 0, 224);
+    top: 0;
+    left: 0; 
+    transition: width 1s ease-in-out;
+    z-index: -1;
+
+
+  }
+  .checkbtn:hover::before {
+    width: 100%;
+  } 
+
+  .checkComprado {
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkComprado img {
+    width: 25vw;
+    padding-bottom: 3vw;
+  }
+  .checkCompradoTxt {
+    color: white;
+  }

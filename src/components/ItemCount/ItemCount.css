@@ -1,0 +1,60 @@
+.contadorContainer {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contadorContainer strong {
+    background-color: #50465c5b;
+    font-size: 20px;
+    padding: 7px;
+    padding-bottom: 8px;
+    padding-inline: 30px;
+    border: 0.1px solid #50465c25 ;
+}
+.contadorContainer button {
+    font-size: 20px;
+    padding: 7px;
+    padding-inline: 12px;
+    background-color: #33234663;
+    border: 0.1px solid #2a203685;
+    cursor: pointer;
+    color: white;
+
+}
+
+.contadorIzq {
+    border-radius: 10px 0px 0px 10px;
+
+}
+.contadorDer {
+    border-radius: 00px 10px 10px 0px;
+
+}
+
+.botonAgregar {
+    position: relative;
+    top: 1.3vw;
+    padding: 1.3vw;
+    border-radius: 1vw;
+    border: none;
+    background: #50465c5b;
+    color: white;
+    transition: 0.6s;
+}
+
+.botonAgregar:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+@media (max-width:500px) {
+    .contadorContainer button {
+        font-size: 3vw;
+        padding-inline: 2vw;
+    }
+    .contadorContainer strong {
+        font-size: 3vw;
+        padding-inline: 3vw;
+    }
+}

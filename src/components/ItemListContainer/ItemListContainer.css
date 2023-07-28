@@ -1,0 +1,13 @@
+
+.productosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+@media (max-width:500px) {
+    .productosContainer {
+        margin-top: 25vw;
+    }
+}

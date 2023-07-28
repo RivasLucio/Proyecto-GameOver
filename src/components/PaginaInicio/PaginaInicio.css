@@ -1,0 +1,23 @@
+.paginaPrincipal {
+  margin-bottom: 100px;
+}
+
+.itemSearchContainer {
+  margin-right: 15%;
+  margin-left: 15%;
+  width: 70%;
+}
+@media (max-width: 700px) {
+  .paginaPrincipal {
+    margin-bottom: 40vw;
+    margin-top: 20vw;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .paginaPrincipal {
+    margin-bottom: 20vw;
+  }
+
+}

@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+  
+  }
+  
+  body {
+    padding-top: 155px;
+    background: #180430;
+  }
+
+  
+  ::-webkit-scrollbar {
+    width: 8px; 
+    background: rgb(57, 0, 95);
+  }
+    
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(transparent, rgb(135, 0, 224));
+  }

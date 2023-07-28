@@ -1,0 +1,28 @@
+.navbarCarrito {
+    color: #fff;
+    margin-right: 20px;
+    margin-top: auto;
+    cursor: pointer;
+  }
+  
+
+.navbarCarrito i{
+    font-size: 45px;
+  }
+
+  .navbarCarrito span {
+    margin-inline: auto;
+    color: #fff;
+    font-size: 25px;
+  }
+  @media (max-width: 700px) {
+    .navbarCarrito {
+      margin-left: 25vw;
+    }
+  }
+  @media (max-width: 400px) {
+    .navbarCarrito {
+      margin-left: 18vw;
+    }
+  }
+
