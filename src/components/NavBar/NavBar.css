@@ -137,8 +137,8 @@ hr {
 @media (max-width: 700px) {
   .navbarUnderCategorias {
     position: absolute;
-    top: -130%;
-    left: -20%;
+    top:  120%;
+    left: -200%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -156,7 +156,6 @@ hr {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 105%;
     left: 3%;
     text-align: center;
     font-size: 5vw;
@@ -170,43 +169,43 @@ hr {
     color: white;
     font-size: 4vw;
   }
-}
-
+  
 .inicial {
   position: absolute;
   background: #3f0388;
-  top: -200px;
-  left: -400px;
+  top: 0px;
+  left: -800px;
   z-index: -1;
-  width: 100%;
-  height: 0;
+  width: 0;
+  height: 200vw;
   overflow: hidden;
-  transition: all 0.4s ease;
+  transition: all 0.6s ease;
 }
 
 .inicial.active {
-  top: 0;
   left: 0;
-  width: 100%;
-  height: 200vw;
-  border-radius: 0 0 80% 0;
+  width: 40%;
+}
+
 }
 
 @media (max-width: 500px) {
   .navbarUnderCategorias.active {
-    top: 100%;
+    left:  2%;
+
   }
   .navbarUnderCategorias {
-    top: -200%;
-    left: -30%;
+    top: 120%;
+    left: -200%;
   }
 
 .navbarUnderCategorias li {
-    margin-top: 13vw;
+    margin-top: 8vw;
   }
   .navbarUnderCategorias.active a , .navbarUnderCategorias a {
-    font-size: 5.5vw;
+    font-size: 4vw;
   }
+
   .inicial.active {
     height: 250vw;
   }
@@ -219,14 +218,13 @@ hr {
 @media (max-width: 400px) {
 
   .navbarUnderCategorias li {
-      margin-top: 10vw;
+      margin-top: 12vw;
     }
     .navbarUnderCategorias.active a , .navbarUnderCategorias a {
       font-size: 5vw;
     }
     .inicial.active {
-      height: 320vw;
-
+      height: 400vw;
     }
     
     
