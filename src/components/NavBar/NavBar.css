@@ -225,6 +225,7 @@ hr {
     }
     .inicial.active {
       height: 400vw;
+        width: 50%;
     }
     
     
