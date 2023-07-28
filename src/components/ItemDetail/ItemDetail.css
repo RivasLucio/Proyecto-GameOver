@@ -119,9 +119,16 @@
     }
     .itemDetailImg img {
         width: 100%;
-        height: 80%;
+        height: 70%;
+    }
+    .itemDetailImg h2 {
+        font-size: 6vw;
+        margin-bottom: 2vw;
     }
     .detailContenedor {
         margin-bottom: 50vw;
+    }
+    .itemDetailPrecio a {
+        font-size: 3vw;
     }
 }

@@ -68,8 +68,6 @@
   gap: 10px;
 }
 .carritoVacio {
-  padding-bottom: 5vw;
-  padding-top: 2vw;
   color: white;
   display: flex;
   flex-direction: column;
@@ -79,23 +77,14 @@
   .compra {
     margin-bottom: 30vw;
   }
-  .carritoVacio {
-    margin-top: 10vw;
-    margin-bottom: 40vw;
-  }
- 
- }
- @media (max-width: 1400px) {
-  .compra {
-    margin-bottom: 50vw;
-  }
+
  
  }
 
+
 @media (max-width: 1200px) {
   .compra {
-    margin-top: 30vw;
-    gap: 40px;
+    gap: 30px;
   }
 }
 
@@ -103,65 +92,54 @@
   .compraTotal h3 {
     font-size: 2vw;
   }
-  .carritoVacio, .carrito {
-    margin-top: 25vw;
-  }
+
 }
 @media (max-width: 600px) {
   
-.carritoVacio {
-  margin-bottom: 35vw;
-}
+
   .compra {
     margin-top: 20vw;
     gap: 40px;
-    margin-bottom: 200px;
     flex-direction: column;
     align-items: center;
   }
   .compra button {
-    padding: 4vw;
+    padding: 3vw;
     padding-inline: 20vw;
   }
   .compraTotal {
     flex-direction: row;
   }
 
-  .compraTotal h3 {
+  .compra .compraTotal h3 {
     font-size: 4vw;
   }
 
   .vaciarBtn button,
   .finalizarBtn button {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .carritoVacio img {
     width: 80%;
   }
-}
-@media (max-width: 600px) { 
+  .carritoVacio a {
+    font-size: 4vw;
+  }
   .carrito {
-    margin-top: 40vw;
-  }
-  .compra{
-    margin-bottom: 90vw;
-  }
-  .carritoVacio {
-    margin-bottom: 90vw;
-    margin-top: 60vw;
+    margin-top: 15vw;
   }
 }
 @media (max-width: 400px) {
  
   .compra {
-    margin-top: 30vw;
+    margin-top: 20vw;
     gap: 40px;
     flex-direction: column;
     align-items: center;
   }
   .compra button {
-    padding: 5vw;
-    padding-inline: 25vw;
+    padding: 3.5vw;
+    padding-inline: 17vw;
   }
 
 
@@ -171,6 +149,6 @@
 
   .vaciarBtn button,
   .finalizarBtn button {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
