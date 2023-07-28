@@ -5,13 +5,23 @@
     align-items: center;
     margin-top: 3vw;
 }
+.spinner {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10%;
+   margin-bottom: 10vw;
+}
 
 @media (max-width:500px) {
     .productosContainer {
         margin-top: 25vw;
-    }
-    .itemSearchContainer{
-        margin-top: 20%;
         margin-bottom: 30%;
+    }
+
+    .spinner {
+   margin-top: 30%;
+
+        margin-bottom: 55%;
     }
 }

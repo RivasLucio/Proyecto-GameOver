@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { CartItem } from "../CartItem/CartItem";
 import "./Cart.css";
 import { SearchContext } from "../../context/SearchContext";
-import { ProductList } from "../Item/Item";
 import gif from "../../assets/img/gifVacio.gif";
+import { ItemList } from "../ItemList/ItemList";
 
 
 export const Cart = () => {
@@ -17,8 +17,9 @@ export const Cart = () => {
 
     if(searchResults.length > 0) {
       return ( 
-        <div className="itemSearchContainer">
-        <ProductList filteredProducts={searchResults} />
+        <div className="productosContainer">
+             <ItemList productos={searchResults}/>
+
       </div>
       )
     } else {

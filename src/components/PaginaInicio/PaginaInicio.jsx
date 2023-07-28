@@ -2,18 +2,18 @@ import "./PaginaInicio.css";
 
 import { PaginaFondo } from "../PaginaFondo/PaginaFondo";
 import { PaginaRecomendaciones } from "../PaginaRecomendaciones/PaginaRecomendaciones";
-import { ProductList } from "../Item/Item";
 import { useContext } from "react";
 import { SearchContext } from "../../context/SearchContext";
+import { ItemList } from "../ItemList/ItemList";
 
 export const PaginaInicio = () => {
   const { searchResults } = useContext(SearchContext);
   return (
     <>
       {searchResults.length > 0 ? (
-        <div className="itemSearchContainer">
+        <div className="productosContainer">
 
-          <ProductList filteredProducts={searchResults} />
+      <ItemList productos={searchResults}/>
         </div>
 
       ) : (

@@ -21,26 +21,3 @@ export const Item = ({ id, img, nombre, precio, stock }) => {
     </div>
   );
 };
-
-export const ProductList = ({ filteredProducts }) => {
-  return (
-    <div className="product-list">
-      {filteredProducts.map((product) => (
-        <div key={product.id} className="cardProducto">
-          <div className="cardProductoImage">
-            <img src={product.img} alt={product.nombre} />
-          </div>
-          <h3>{product.nombre}</h3>
-          <div className="cardPrecio">
-            <h2>${product.precio}</h2>
-            <p>
-              12 Cuotas sin intereses de $
-              {Math.round((product.precio * 1.6) / 12)}
-            </p>
-            <Link to={`/item/${product.id}`}>Ver detalles</Link>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-};

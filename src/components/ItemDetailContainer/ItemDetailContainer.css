@@ -1,0 +1,17 @@
+.spinnerDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 30vw;
+ }
+ 
+ @media (max-width:500px) {
+
+     .spinnerDetail {
+    margin-top: 60%;
+ 
+         margin-bottom: 80%;
+     }
+ }
+ 
