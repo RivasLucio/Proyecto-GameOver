@@ -5,6 +5,7 @@ import { CartItem } from "../CartItem/CartItem";
 import "./Cart.css";
 import { SearchContext } from "../../context/SearchContext";
 import { ProductList } from "../Item/Item";
+import gif from "../../assets/img/gifVacio.gif";
 
 
 export const Cart = () => {
@@ -25,7 +26,7 @@ export const Cart = () => {
         return (
           <div className="carritoVacio">
             <h2>Carrito Vacio, agregue productos para realizar la solicitud!</h2>
-            <img src="/public/gifVacio.gif" alt="" />
+            <img src={gif} alt="" />
             <Link to="/"> ver productos</Link>
           </div>
         );

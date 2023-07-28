@@ -108,3 +108,30 @@ form {
   .checkCompradoTxt {
     color: white;
   }
+  @media (max-width:1600px) {
+    .formulario {
+        max-width: 80%;
+    }
+  }
+  @media (max-width:1000px) {
+    .checkComprado {
+        padding-bottom: 20vw;
+    }
+  }
+
+  @media (max-width:900px) {
+    .formulario {
+        max-width: 70%;
+    }
+  }
+  @media (max-width:500px) {
+    .checkComprado img{
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 5vw; 
+
+    }
+    .checkComprado strong{
+        text-align: center;
+    }
+  }
