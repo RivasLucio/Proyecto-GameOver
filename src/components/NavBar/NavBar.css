@@ -111,7 +111,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 100%;
+    height: 80%;
   }
   .navbarImg {
     grid-column: 1/2;
@@ -193,8 +193,11 @@ hr {
 }
 
 @media (max-width: 500px) {
+  .navbarUnderCategorias.active {
+    top: 100%;
+  }
   .navbarUnderCategorias {
-    top: -180%;
+    top: -200%;
     left: -30%;
   }
 
@@ -207,13 +210,16 @@ hr {
   .inicial.active {
     height: 250vw;
   }
-  
+  .navbarUnder {
+    padding: 2px;
+  }
+
   
 }
 @media (max-width: 400px) {
 
   .navbarUnderCategorias li {
-      margin-top: 16vw;
+      margin-top: 10vw;
     }
     .navbarUnderCategorias.active a , .navbarUnderCategorias a {
       font-size: 6.5vw;
