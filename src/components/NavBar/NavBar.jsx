@@ -48,26 +48,26 @@ export const NavBar = () => {
           <ul className={`navbarUnderCategorias ${click ? 'active' : ""}`} >
 
             <li>
-              <NavLink to={`/categoria/gabinetes`}>Gabinete</NavLink>
+              <NavLink  to={`/categoria/gabinetes`}>Gabinete</NavLink>
             </li>
             <li>
-              <NavLink to={`/categoria/discos`}>Discos hdd/ssd</NavLink>
+              <NavLink  to={`/categoria/discos`}>Discos hdd/ssd</NavLink>
             </li>
             <li>
-              <NavLink to={`/categoria/motherboard`}>motherboards</NavLink>
+              <NavLink  to={`/categoria/motherboard`}>motherboards</NavLink>
             </li>
             <li>
-              <NavLink to={`/categoria/memoria ram`}>Memoria ram</NavLink>
+              <NavLink  to={`/categoria/memoria ram`}>Memoria ram</NavLink>
             </li>
             <li>
-              <NavLink to={`/categoria/fuente`}>Fuentes</NavLink>
+              <NavLink  to={`/categoria/fuente`}>Fuentes</NavLink>
             </li>
 
             <li>
-              <NavLink to={`/categoria/procesadores`}>procesadores</NavLink>
+              <NavLink  to={`/categoria/procesadores`}>procesadores</NavLink>
             </li>
             <li>
-              <NavLink to={`/categoria/placas de video`}>
+              <NavLink  to={`/categoria/placas de video`}>
                 Placas de video
               </NavLink>
             </li>

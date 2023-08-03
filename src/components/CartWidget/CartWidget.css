@@ -24,5 +24,8 @@
     .navbarCarrito {
       margin-left: 18vw;
     }
+    .navbarCarrito a i{
+      font-size: 10vw;   
+    }
   }
 
